@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "eb83465156741e67",
+    "type": "split",
+    "children": [
+      {
+        "id": "3738c4ca5c65dc98",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Authentication.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "ad5bcd69e0fafd94",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Authentication.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "25b01622c6983927",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Data Models/Time Slots/TimeSlots.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2c9ceb3df8e9ce9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb7b3f52e3965c63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feea409630e5e255",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "377c6f2249a8c148",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "046420a3058ea167",
+    "type": "split",
+    "children": [
+      {
+        "id": "0590b2cbcf80ec27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77b370bc134226a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Authentication.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ad5bcd69e0fafd94",
+  "lastOpenFiles": [
+    "Authentication.md",
+    "createIngredient.md",
+    "Feature/Queue.md",
+    "Feature/Request Menu Item.md",
+    "Feature/Menu Data Observable.md",
+    "Feature/getTimeSlots.md",
+    "Diagrams/General Workflow.md",
+    "Data Models/Order Info/BaseMilkTea.md",
+    "Data Models/Order Info/Order.md",
+    "Data Models/Time Slots/TimeSlots.md"
+  ]
+}

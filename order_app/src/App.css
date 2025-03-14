@@ -1,0 +1,183 @@
+body {
+  font-family: Avenir;
+}
+
+.wrapper {
+  padding-bottom: 60px;
+}
+
+.green {
+  background: #a4be7b;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.yellow {
+  color: #f9d454;
+  font-weight: bolder;
+}
+
+.logo {
+  font-family: Avenir Black;
+  font-size: 4vh;
+}
+
+.rightFloat {
+  align-items: flex-end;
+}
+
+.drinkCard {
+  width: 150px;
+  margin: 10px;
+  transition: all 250ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.drinkCard:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+  border-radius: 20px;
+}
+
+.title {
+  font-family: Avenir Black;
+  font-size: 20px;
+  font-weight: boler;
+  letter-spacing: 4px;
+}
+
+.floatingCart {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50px;
+}
+
+.test {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 110px;
+  right: 30px;
+  z-index: 50px;
+}
+
+.header {
+  background-color: white;
+}
+
+.behind {
+  z-index: 900 !important;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 800 !important;
+}
+
+.float {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  right: 0;
+}
+
+.subtotal {
+  position: absolute;
+  width: 40vw;
+  z-index: 0 !important;
+  padding-right: 10px;
+  /* background-color: #f9d454; */
+  /* color: #f9d454;  */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border-radius: 20px;
+  right: 0;
+  margin-right: 10px;
+  bottom: 60px;
+}
+
+.top {
+  position: relative !important;
+  z-index: 1000 !important;
+}
+
+.scrollableCart {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 800px;
+}
+
+.cardImg {
+  width: 130px;
+  border-radius: 20px 20px 20px 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.drinkPic {
+  width: 100px;
+  object-fit: cover;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.cartDrinkPic {
+  width: 100px;
+  object-fit: cover;
+  max-height: 120px;
+  border-radius: 10px;
+}
+
+hr {
+  margin: 0px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.notesTextfield:focus{
+  outline-color: #f92454 !important;
+}
+
+.notesTextfield:hover{
+  outline-color: #f92454;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 15px !important;
+}
+
+ .notesTextfield:focus ~ .charLeft{
+  visibility: visible;
+ }
+ /* .MuiChip-root{
+  background: rgb(0, 255, 21) !important;
+ } */
+
+ /* body.noHover .MuiChip-root:hover {
+    background-color: rgb(249, 212, 84) !important;
+ } */
+
+ body.noHover .chip:hover {
+  background-color: rgb(249, 212, 84) !important;
+}
+
+ body.noHover .multchip:hover {
+  background-color: rgb(235, 235, 235) !important;
+}
+
+body.noHover .multchip.selected:hover {
+  background-color: rgb(249, 212, 84) !important; /* Ensures selected chips remain the intended color on hover */
+}
